@@ -1,0 +1,82 @@
+﻿/************************************************************/
+/*****              SqlDataProvider                     *****/
+/*****                                                  *****/
+/*****                                                  *****/
+/***** Note: To manually execute this script you must   *****/
+/*****       perform a search and replace operation     *****/
+/*****       for {databaseOwner} and {objectQualifier}  *****/
+/*****                                                  *****/
+/************************************************************/
+
+
+/************************************************************/
+/*****              SqlDataProvider                     *****/
+/*****                                                  *****/
+/*****                                                  *****/
+/***** Note: To manually execute this script you must   *****/
+/*****       perform a search and replace operation     *****/
+/*****       for {databaseOwner} and {objectQualifier}  *****/
+/*****                                                  *****/
+/************************************************************/
+
+IF EXISTS (SELECT * FROM sys.objects WHERE [object_id] = OBJECT_ID(N'{databaseOwner}[{objectQualifier}Videos]') AND type in (N'U'))
+	DROP TABLE {databaseOwner}[{objectQualifier}Videos]
+GO
+
+CREATE TABLE {databaseOwner}{objectQualifier}Videos
+(
+	[VideoID] [int] IDENTITY(1,1) NOT NULL,
+	[PortalID] [int] NOT NULL,
+	[Src] [nvarchar](1500) NULL,
+	[Title] [nvarchar](1000) NULL,
+	[Description] [nvarchar](3000) NULL,
+	[TabId] [int] NULL,
+	[width] [int] NULL,
+	[height] [int] NULL,
+	[VideosLoop] [bit] NULL,
+	[AutoStart] [bit] NULL,
+	[VideosType] [int] NULL,
+	[ImgVideo] [nvarchar](4000) NULL,
+	[LastUpdatedBy] [int] NULL,
+	[LastUpdatedDate] [datetime] NULL,
+)
+GO
+
+
+ALTER TABLE {databaseOwner}[{objectQualifier}Videos] ADD CONSTRAINT [PK_{objectQualifier}Videos] PRIMARY KEY CLUSTERED ([VideoID])
+GO
+
+ALTER TABLE {databaseOwner}[{objectQualifier}Videos] ADD  CONSTRAINT [DF_{objectQualifier}Videos_VideosLoop]  DEFAULT ((0)) FOR [VideosLoop]
+GO
+
+ALTER TABLE {databaseOwner}[{objectQualifier}Videos] ADD  CONSTRAINT [DF_{objectQualifier}Videos_AutoStart]  DEFAULT ((0)) FOR [AutoStart]
+GO
+
+ALTER TABLE {databaseOwner}[{objectQualifier}Videos] ADD  CONSTRAINT [DF_{objectQualifier}Videos_VideosType]  DEFAULT ((0)) FOR [VideosType]
+GO
+
+ALTER TABLE {databaseOwner}[{objectQualifier}Videos] ADD  CONSTRAINT [DF__{objectQualifier}Videos__LastUpdate]  DEFAULT ((1)) FOR [LastUpdatedBy]
+GO
+
+ALTER TABLE {databaseOwner}[{objectQualifier}Videos] WITH CHECK ADD  CONSTRAINT [FK_{objectQualifier}Videos_LastUpdatedBy] FOREIGN KEY([LastUpdatedBy])
+REFERENCES {databaseOwner}[{objectQualifier}Users] ([UserID])
+GO
+
+GO
+
+
+/************************************************************/
+/*****              SqlDataProvider                     *****/
+/************************************************************/
+
+
+/************************************************************/
+/*****              SqlDataProvider                     *****/
+/************************************************************/
+if not exists (select * from information_schema.columns 
+	where table_name = '{objectQualifier}Videos' and column_name = 'TabId')
+BEGIN
+ALTER TABLE {databaseOwner}[{objectQualifier}Videos] WITH NOCHECK ADD TabId int NULL
+END
+GO
+

@@ -1,0 +1,58 @@
+﻿div.SurveyFormItem {
+   margin-bottom: 1rem;
+}
+
+span.SurveyLabel { 
+   width : 100% !important;
+}
+
+label.dnnBoxLabel {
+   font-weight: normal;
+}
+
+table.dnnFormRadioButtons
+{
+   width: 100%;
+   background-color: transparent;
+}
+
+span.SurveyHandle
+{
+   cursor: pointer;
+}
+
+div.dnnCheckBoxFormItemForFaxQuestion {
+   /* PLEASE DO NOT CHANGE THIS IN ANY WAY! */
+   visibility: hidden;
+   display: none;
+}
+
+img.surveyImageLeft
+{
+   width: 32px;
+   height: 32px;
+   visibility: visible;
+   display: inline-block;
+}
+
+div.surveyQuizResult
+{
+   font-size: 18px !important;
+   font-weight: bold;
+}
+
+div.dnnLabel
+{
+	width : 100% !important;
+	text-align : left
+}
+
+span.mark, mark
+{
+	background-color : transparent !important
+}
+
+ul.dnnActions
+{ 
+	padding-top :0px !important
+}

@@ -1,0 +1,21 @@
+﻿/************************************************************/
+/*****              SqlDataProvider                     *****/
+/*****                                                  *****/
+/*****                                                  *****/
+/***** Note: To manually execute this script you must   *****/
+/*****       perform a search and replace operation     *****/
+/*****       for {databaseOwner} and {objectQualifier}  *****/
+/*****                                                  *****/
+/************************************************************/
+
+
+
+/************************************************************/
+/*****              SqlDataProvider                     *****/
+/************************************************************/
+if not exists (select * from information_schema.columns 
+	where table_name = '{objectQualifier}Videos' and column_name = 'TabId')
+BEGIN
+ALTER TABLE {databaseOwner}[{objectQualifier}Videos] WITH NOCHECK ADD TabId int NULL
+END
+GO

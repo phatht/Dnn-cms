@@ -1,0 +1,295 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="valEmail1.Error" xml:space="preserve">
+    <value> Email thì cần thiết.</value>
+  </data>
+  <data name="valEmail2.Error" xml:space="preserve">
+    <value>Email phải hợp lệ.</value>
+  </data>
+  <data name="plSubject.Text" xml:space="preserve">
+    <value>Chủ đề:</value>
+  </data>
+  <data name="plSubject2.Text" xml:space="preserve">
+    <value>Chủ đề:</value>
+  </data>
+  <data name="plCopy.Text" xml:space="preserve">
+    <value>Gửi bản sao cho chính mình:</value>
+  </data>
+  <data name="cmdSend.Text" xml:space="preserve">
+    <value>Gửi</value>
+  </data>
+  <data name="MessageSent.Text" xml:space="preserve">
+    <value>Phản hồi của bạn đã được gửi đến chủ sở hữu trang web. Cảm ơn bạn!</value>
+  </data>
+  <data name="Moderate.Text" xml:space="preserve">
+    <value>Kiểm duyệt bài viết</value>
+  </data>
+  <data name="MessagePending.Text" xml:space="preserve">
+    <value>Bài đăng Phản hồi mới được gửi đang chờ kiểm duyệt để có thể xuất bản. Vui lòng đăng nhập vào trang web {0} và thay đổi trạng thái của bài đăng: &lt;br /&gt;&lt;br /&gt;{1}</value>
+  </data>
+  <data name="ModuleHelp.Text" xml:space="preserve">
+    <value>&lt;h1&gt;About The Feedback Module&lt;/h1&gt;
+
+&lt;p&gt;The Feedback Module allows visitors to send messages to the portal Administrator.&lt;/p&gt;
+
+&lt;h1&gt;Send Feedback&lt;/h1&gt;
+
+&lt;ol&gt;&lt;li&gt;Add a &lt;b&gt;Feedback&lt;/b&gt; module, or go to an existing &lt;b&gt;Feedback&lt;/b&gt; module. &lt;/li&gt;
+&lt;li&gt;At &lt;b&gt;Email&lt;/b&gt;, enter your email address. 
+&lt;li&gt;At &lt;b&gt;Name&lt;/b&gt;, enter your name. 
+&lt;li&gt;At &lt;b&gt;Subject&lt;/b&gt;, enter the subject of the email. 
+&lt;li&gt;At &lt;b&gt;Body&lt;/b&gt;, enter your message. 
+&lt;li&gt;Click &lt;b&gt;Send&lt;/b&gt;.&lt;/ol&gt;</value>
+  </data>
+  <data name="cmdCancel.Text" xml:space="preserve">
+    <value>Bỏ qua</value>
+  </data>
+  <data name="MenuEditLists.Text" xml:space="preserve">
+    <value>Chỉnh sửa Danh mục/Chủ đề</value>
+  </data>
+  <data name="MenuModeration.Text" xml:space="preserve">
+    <value> Kiểm duyệt/Quản lý</value>
+  </data>
+  <data name="plCaptcha.Text" xml:space="preserve">
+    <value>Mã bảo mật:</value>
+  </data>
+  <data name="InvalidCaptcha.Text" xml:space="preserve">
+    <value>Mã bảo mật không chính xác</value>
+  </data>
+  <data name="valBody.Error" xml:space="preserve">
+    <value>Bạn phải nhập một tin nhắn.</value>
+  </data>
+  <data name="valName.Error" xml:space="preserve">
+    <value> Tên là bắt buộc.</value>
+  </data>
+  <data name="valTelephone.Error" xml:space="preserve">
+    <value>Điện thoại là bắt buộc.</value>
+  </data>
+  <data name="valCity.Error" xml:space="preserve">
+    <value>Thành phố là bắt buộc.</value>
+  </data>
+  <data name="valCountry.Error" xml:space="preserve">
+    <value>Quốc gia là bắt buộc.</value>
+  </data>
+  <data name="valPostalCode.Error" xml:space="preserve">
+    <value>Mã Bưu chính là bắt buộc.</value>
+  </data>
+  <data name="valRegion.Error" xml:space="preserve">
+    <value>Khu vực  là bắt buộc.</value>
+  </data>
+  <data name="valStreet.Error" xml:space="preserve">
+    <value>Đường phố là bắt buộc.</value>
+  </data>
+  <data name="valTelephone2.Error" xml:space="preserve">
+    <value>Điện thoại phải có định dạng hợp lệ.</value>
+  </data>
+  <data name="valSubject2.Error" xml:space="preserve">
+    <value> Chủ đề là bắt buộc.</value>
+  </data>
+  <data name="plContactInfo.Text" xml:space="preserve">
+    <value>Thông tin liên lạc của bạn</value>
+  </data>
+  <data name="plMessage.Text" xml:space="preserve">
+    <value>Nội dung :</value>
+  </data>
+  <data name="CaptchaText.Text" xml:space="preserve">
+    <value>Nhập mã hiển thị ở trên.</value>
+  </data>
+  <data name="valPostalCode2.Error" xml:space="preserve">
+    <value>Mã Bưu chính phải là định dạng hợp lệ.</value>
+  </data>
+  <data name="SubmissionTooSoon.Text" xml:space="preserve">
+    <value>
+Chủ sở hữu trang web đã đặt giới hạn về tần suất mà cùng một người dùng có thể gửi phản hồi. Vui lòng thử lại sau.</value>
+  </data>
+  <data name="plCreatedOnDate.Text" xml:space="preserve">
+    <value>Được tạo bởi</value>
+  </data>
+  <data name="plLastModifiedOnDate.Text" xml:space="preserve">
+    <value>Sửa lần cuối bởi</value>
+  </data>
+  <data name="plRemoteAddr.Text" xml:space="preserve">
+    <value>IP Address</value>
+  </data>
+  <data name="plStatus.Text" xml:space="preserve">
+    <value>Trạng thại</value>
+  </data>
+  <data name="plFeedback.Text" xml:space="preserve">
+    <value>Thông tin phản hồi của bạn</value>
+  </data>
+  <data name="plFeedbackID.Text" xml:space="preserve">
+    <value>ID</value>
+  </data>
+  <data name="RefreshCaptcha.Text" xml:space="preserve">
+    <value>Làm mới hình ảnh xác thực</value>
+  </data>
+  <data name="SendMessageError.Text" xml:space="preserve">
+    <value>Không thể gửi phản hồi của bạn đến một số hoặc tất cả những người nhận dự định, vui lòng thử lại sau:&lt;br /&gt;</value>
+  </data>
+  <data name="plCategoryID.Text" xml:space="preserve">
+    <value>Category ID</value>
+  </data>
+  <data name="plCategoryValue.Text" xml:space="preserve">
+    <value>Lĩnh vực</value>
+  </data>
+  <data name="plPublishedOnDate.Text" xml:space="preserve">
+    <value> Đã xuất bản vào</value>
+  </data>
+  <data name="plCategoryName.Text" xml:space="preserve">
+    <value>Lĩnh vực</value>
+  </data>
+  <data name="CaptchaAudioText.Text" xml:space="preserve">
+    <value>Nhận mã âm thanh</value>
+  </data>
+  <data name="valCopy.Error" xml:space="preserve">
+    <value>Cần có email khi đánh dấu vào 'Gửi bản sao cho chính bạn'.</value>
+  </data>
+  <data name="valCategory.Error" xml:space="preserve">
+    <value>Vui lòng chọn một lĩnh vực từ danh sách</value>
+  </data>
+  <data name="valSubject.Error" xml:space="preserve">
+    <value>Vui lòng chọn một chủ đề từ danh sách</value>
+  </data>
+  <data name="plEmailConfirm.Text" xml:space="preserve">
+    <value>Xác nhận Email:</value>
+  </data>
+  <data name="valEmailConfirm.Error" xml:space="preserve">
+    <value>Email là khác nhau.</value>
+  </data>
+  <data name="DuplicateSubmission.Text" xml:space="preserve">
+    <value>Trước đây bạn đã gửi thông báo này. Chủ sở hữu trang web đã từ chối khả năng gửi thông báo trùng lặp.</value>
+  </data>
+  <data name="MessageSpam.Text" xml:space="preserve">
+    <value>
+Phản hồi mới được gửi đã được xác định là spam, Vui lòng đăng nhập vào trang web {0} và xem lại bài đăng để xuất bản: &lt;br /&gt;&lt;br /&gt;{1}</value>
+  </data>
+  <data name="SendMessageSpam.Text" xml:space="preserve">
+    <value>Phản hồi của bạn đã được gửi đến chủ sở hữu trang web, nhưng đã được xác định là thư rác. Chủ sở hữu trang web sẽ xem xét nó trước khi nó được xuất bản.</value>
+  </data>
+  <data name="valMessageLength.Error" xml:space="preserve">
+    <value>Tin nhắn không được nhiều hơn {0} ký tự</value>
+  </data>
+  <data name="plCaptcha" xml:space="preserve">
+    <value></value>
+  </data>
+  <data name="plCharCount.Text" xml:space="preserve">
+    <value>Ký tự còn lại:</value>
+  </data>
+</root>

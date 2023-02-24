@@ -1,0 +1,96 @@
+﻿<dotnetnuke type="ResourceFile" version="5.0">
+  <files>
+    <file>
+      <path />
+      <name>Settings.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>SurveyEdit.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>SurveyOrganize.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>SurveyResults.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>SurveyView.ascx</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>Settings.ascx.resx</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>SharedResources.resx</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>SurveyEdit.ascx.resx</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>SurveyOrganize.ascx.resx</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>SurveyResults.ascx.resx</name>
+    </file>
+    <file>
+      <path>App_LocalResources/</path>
+      <name>SurveyView.ascx.resx</name>
+    </file>
+    <file>
+      <path>Controls/</path>
+      <name>CanvasControl.ascx</name>
+    </file>
+    <file>
+      <path>Controls/</path>
+      <name>PrivacyConfirmationCheckBox.ascx</name>
+    </file>
+    <file>
+      <path>Controls/</path>
+      <name>SurveyCheckBoxes.ascx</name>
+    </file>
+    <file>
+      <path>Controls/</path>
+      <name>SurveyRadioButtons.ascx</name>
+    </file>
+    <file>
+      <path>Controls/</path>
+      <name>SurveyText.ascx</name>
+    </file>
+    <file>
+      <path />
+      <name>Module.css</name>
+    </file>
+    <file>
+      <path>css/</path>
+      <name>Settings.css</name>
+    </file>
+    <file>
+      <path>images/</path>
+      <name>correct.png</name>
+    </file>
+    <file>
+      <path>images/</path>
+      <name>icon_survey_32px.png</name>
+    </file>
+    <file>
+      <path>images/</path>
+      <name>info.png</name>
+    </file>
+    <file>
+      <path>images/</path>
+      <name>not-correct.png</name>
+    </file>
+    <file>
+      <path>js/</path>
+      <name>Chart.min.js</name>
+    </file>
+  </files>
+</dotnetnuke>

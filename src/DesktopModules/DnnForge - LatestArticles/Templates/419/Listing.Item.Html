@@ -1,0 +1,20 @@
+
+<script type="text/javascript">
+    var dataSource =
+        [
+            { Value: "http://chinhphu.vn/portal/page/portal/chinhphu/trangchu", Name: 'Cổng thông tin điện tử Chính phủ' },
+            { Value: "http://www.cpv.org.vn/", Name: 'Báo điện tử Đảng Cộng Sản' },
+            { Value: "http://www.vtv.vn/", Name: 'Đài truyền hình Việt Nam' }
+        ];
+
+    $('#list').dxList({
+        dataSource: dataSource,
+        searchEnabled: true,
+        searchExpr: 'Name',
+        itemTemplate(data) {
+            return $('<div>').text(data.Name);
+        },
+    }).dxList('instance');
+
+
+</script>

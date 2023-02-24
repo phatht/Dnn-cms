@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="SurveyClosingDate.Help" xml:space="preserve">
+    <value>Nhập ngày kết thúc khảo sát. Bạn có thể sử dụng lịch bật lên để chọn ngày.</value>
+  </data>
+  <data name="SurveyClosingDate.Text" xml:space="preserve">
+    <value>Ngày kết thúc khảo sát</value>
+  </data>
+  <data name="ShowClosingDateMessage.Help" xml:space="preserve">
+    <value>Kích hoạt tùy chọn này để hiển thị thông báo cho biết ngày kết thúc khảo sát.</value>
+  </data>
+  <data name="ShowClosingDateMessage.Text" xml:space="preserve">
+    <value>Hiển thị thông báo ngày kết thúc</value>
+  </data>
+  <data name="PrivacyConfirmation.Help" xml:space="preserve">
+    <value>Kích hoạt tùy chọn này để hiển thị hộp kiểm ở cuối khảo sát để chấp nhận tuyên bố về quyền riêng tư và điều khoản sử dụng.</value>
+  </data>
+  <data name="PrivacyConfirmation.Text" xml:space="preserve">
+    <value>Thêm hộp kiểm đồng ý?</value>
+  </data>
+  <data name="UseCaptcha.Always.Text" xml:space="preserve">
+    <value>Luôn luôn</value>
+  </data>
+  <data name="UseCaptcha.Help" xml:space="preserve">
+    <value>Bạn có thể bao gồm một hình ảnh xác thực trong cuộc khảo sát để tránh những kẻ gửi thư rác. Chọn tùy chọn bạn thích.&lt;br /&gt;LƯU Ý: Có một tính năng chống thư rác khác được bao gồm, tính năng này không hiển thị cho người dùng.</value>
+  </data>
+  <data name="UseCaptcha.Never.Text" xml:space="preserve">
+    <value>Không bao giờ</value>
+  </data>
+  <data name="UseCaptcha.Text" xml:space="preserve">
+    <value>Sử dụng hình ảnh xác thực?</value>
+  </data>
+  <data name="UseCaptcha.UnauthorizedUsersOnly.Text" xml:space="preserve">
+    <value>Chỉ dành cho người dùng trái phép</value>
+  </data>
+  <data name="SurveyType.Help" xml:space="preserve">
+    <value>Chọn xem đây là khảo sát hay bài kiểm tra.</value>
+  </data>
+  <data name="SurveyType.Quiz.Text" xml:space="preserve">
+    <value>Quiz</value>
+  </data>
+  <data name="SurveyType.Survey.Text" xml:space="preserve">
+    <value>Khảo sát</value>
+  </data>
+  <data name="SurveyType.Text" xml:space="preserve">
+    <value>Loại khảo sát</value>
+  </data>
+  <data name="AppearanceSecurityOptions.Text" xml:space="preserve">
+    <value>Tùy chọn giao diện và bảo mật</value>
+  </data>
+  <data name="CSVExportOptions.Text" xml:space="preserve">
+    <value>Tùy chọn xuất CSV</value>
+  </data>
+  <data name="TextQualifier.DoubleQuote.Text" xml:space="preserve">
+    <value>Dấu ngoặc kép</value>
+  </data>
+  <data name="TextQualifier.Help" xml:space="preserve">
+    <value>Chọn bộ định tính văn bản để sử dụng khi xuất kết quả sang tệp CSV.</value>
+  </data>
+  <data name="TextQualifier.None.Text" xml:space="preserve">
+    <value>(none)</value>
+  </data>
+  <data name="TextQualifier.SingleQuote.Text" xml:space="preserve">
+    <value>Dấu nháy đơn</value>
+  </data>
+  <data name="TextQualifier.Text" xml:space="preserve">
+    <value>Bộ định tính văn bản</value>
+  </data>
+  <data name="GeneralSettings.Text" xml:space="preserve">
+    <value>Cài đặt chung</value>
+  </data>
+  <data name="Separator.Comma.Text" xml:space="preserve">
+    <value>Dấu phẩy</value>
+  </data>
+  <data name="Separator.Help" xml:space="preserve">
+    <value>Chọn dấu tách để sử dụng khi xuất kết quả sang tệp CSV.</value>
+  </data>
+  <data name="Separator.SemiColon.Text" xml:space="preserve">
+    <value>Dấu chấm phẩy</value>
+  </data>
+  <data name="Separator.Space.Text" xml:space="preserve">
+    <value>Khoảng trắng</value>
+  </data>
+  <data name="Separator.Tab.Text" xml:space="preserve">
+    <value>Tab</value>
+  </data>
+  <data name="Separator.Text" xml:space="preserve">
+    <value>Dấu phân cách</value>
+  </data>
+</root>

@@ -1,0 +1,142 @@
+﻿html, body {
+    position: relative;
+    height: auto;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+.swiper-container {
+    margin-top:10px;
+    width: 100%;
+    height: auto;
+}
+
+.swiper-slide {
+    font-size: 18px;
+    background: #fff;
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+}
+
+
+
+.content-item .icon img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    z-index: 1;
+}
+
+.content-item .pic {
+    overflow: hidden;
+}
+
+.content-item img {
+    transition: 300ms;
+}
+
+.content-item {
+    width: 100%;
+    position: relative;
+}
+
+    .content-item:hover .imghover {
+        -webkit-filter: grayscale(0) blur(0);
+        filter: grayscale(0) blur(0);
+        -webkit-transition: .3s ease-in-out;
+        transition: .3s ease-in-out;
+    }
+
+    .content-item:hover .pic .imghover {
+        -webkit-filter: grayscale(100%) blur(3px);
+        filter: grayscale(100%) blur(3px);
+    }
+
+.imghover {
+    border-radius: 10px;
+}
+
+.swiper-button-next {
+    width: 60px;
+    height: 150px;
+    background-image: linear-gradient(to left,#fff,rgba(255,255,255,.7)) !important;
+    position: absolute;
+    top: 22px !important;
+    right: 0 !important;
+    z-index: 10 !important;
+    -webkit-background-size: unset !important;
+    background-size: unset !important;
+    background-color: transparent !important;
+}
+
+    .swiper-button-next:after {
+        background-position: -10px -3px !important;
+        width: 14px;
+        height: 27px;
+        display: block !important;
+        background-image: url(/DesktopModules/Videos/Contents/img/tvo_32.png) !important;
+        background-repeat: no-repeat !important;
+        background-size: auto !important;
+        content: '';
+        position: absolute;
+        top: 46% !important;
+        right: 18px !important;
+    }
+
+.swiper-button-prev {
+    margin-left: -15px;
+    width: 60px;
+    height: 150px;
+    background-image: linear-gradient(to left,#fff,rgba(255,255,255,.7)) !important;
+    position: absolute;
+    top: 22px !important;
+    right: 0 !important;
+    z-index: 10 !important;
+    -webkit-background-size: unset !important;
+    background-size: unset !important;
+    background-color: transparent !important;
+}
+
+    .swiper-button-prev:after {
+        background-position: -8px -35px !important;
+        width: 14px;
+        height: 27px;
+        display: block !important;
+        background-image: url(/DesktopModules/Videos/Contents/img/tvo_32.png) !important;
+        background-repeat: no-repeat !important;
+        background-size: auto !important;
+        background-color: transparent !important;
+        position: absolute;
+        content: '';
+        top: 46% !important;
+        left: 18px !important;
+    }
+
+@media only screen and (max-width: 414px) {
+    .swiper-button-prev {
+        display:none;
+    }
+    .swiper-button-next {
+        display: none;
+    }
+        .swiper-button-next.swiper-button-disabled, .swiper-button-prev.swiper-button-disabled {
+            display: none;
+        }
+    .swiper-container {
+        height:900px;
+    }
+    .swiper-wrapper {
+        height: 270px;
+    }
+}
